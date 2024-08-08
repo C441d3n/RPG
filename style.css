@@ -1,0 +1,42 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.l1 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+}
+
+nav a.link:hover {
+    color: #5BBE42;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: #5BBE42;
+}
+
+.container {
+    padding:  0px 50px;
+}
+
+.hst {
+    color: blue;
+}
+
